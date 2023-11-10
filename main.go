@@ -133,7 +133,7 @@ func main() {
 	fmt.Println("Creating a new blockchain...")
 	blockchain := NewBlockchain()
 
-	// Add some blocks to the blockchain with POJO data
+	// Add some blocks to the blockchain with POGO data
 	fmt.Println("Adding blocks to the blockchain...")
 
 	creditCardTransaction := CreditCardTransaction{
